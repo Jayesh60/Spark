@@ -1,38 +1,60 @@
-.App {
+.App{
+  padding: 10px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: white;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.form-container{
+  height: fit-content;
+  display: grid;
+  width: 40vw;
+  justify-content: center;
+  
+}
+ .form-container input{
+  padding: 5px 5px;
+  margin:10px 0px;
+  width: 32vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  border: 1px solid gray;
+  border-radius: 5px;
+ }
+
+ .btn{
+  background-color: rgba(84, 146, 167, 0.488);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+ }
+.form{
+  display: flex;
+  padding: 15px;
+  background-color: rgba(230, 229, 229, 0.809);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.garage{
+  height: fit-content;
+  width: 30vw;
+}
+
+
+.check{
+  padding: 0;
+  margin: 0;
+  
+}
+
+.car{
+  background-color: rgba(70, 70, 170, 0.555);
+  margin-bottom: 7px;
+  border-radius: 3px;
+}
+.car p{
+  padding: 2px 0px;
+  margin: 0;
 }
